@@ -1,6 +1,6 @@
 cask "shun" do
-  version "5.0.6"
-  sha256 "f014426048d7d98458695e2bc9a26321836fa61fc071a203208bf5d1b1557082"
+  version "5.0.7"
+  sha256 "8f5d50a6d33af83dee034a7f3e356db14af9c7168cb16b670066115b3c81d47b"
 
   url "https://github.com/yukimemi/shun/releases/download/v#{version}/shun_#{version}_universal.dmg"
   name "shun"
