@@ -7,20 +7,20 @@
 class Shoka < Formula
   desc "Repository workspace manager: jj-aware successor to ghq / rhq with a TUI dashboard"
   homepage "https://github.com/yukimemi/shoka"
-  version "0.23.0"
+  version "0.23.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yukimemi/shoka/releases/download/v0.23.0/shoka-aarch64-apple-darwin.tar.gz"
-      sha256 "a3bb9ca6070ce5aa897a5080f7810db0c0cb32e3eb0b6cb6ecb968afb75fbe13"
+      url "https://github.com/yukimemi/shoka/releases/download/v0.23.1/shoka-aarch64-apple-darwin.tar.gz"
+      sha256 "69cab65e1e9d827a94e6a0f5128f8e96f5f05764dee9f202bb9855bcb792a7e0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yukimemi/shoka/releases/download/v0.23.0/shoka-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "455aa627faa554b793850f8a48cb1aedadbe2e163d3170edb7ccf4bffedf248d"
+      url "https://github.com/yukimemi/shoka/releases/download/v0.23.1/shoka-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "10351270eeedf688269398f569a2115286be1c9da68c00c3eb4e01e7f1bdc7e3"
     end
   end
 
